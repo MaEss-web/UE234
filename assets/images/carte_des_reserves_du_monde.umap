@@ -1,0 +1,93 @@
+{
+  "type": "umap",
+  "uri": "http://umap.openstreetmap.fr/fr/map/carte-des-reserves-du-monde_663948#2/38.3/353.0",
+  "properties": {
+    "easing": true,
+    "embedControl": true,
+    "fullscreenControl": true,
+    "searchControl": true,
+    "datalayersControl": true,
+    "zoomControl": true,
+    "slideshow": {},
+    "captionBar": false,
+    "limitBounds": {},
+    "tilelayer": {
+      "minZoom": 0,
+      "maxZoom": 18,
+      "attribution": "Tiles courtesy of [[https://www.jawg.io/|jawgmaps]] - Map data [[http://osm.org/copyright/|&copy; OpenStreetMap contributors]], under ODbL.",
+      "url_template": "https://tile.jawg.io/sunny/{z}/{x}/{y}.png?api-key=community",
+      "name": "OSM Sunny (jawgmaps)",
+      "tms": false
+    },
+    "licence": "",
+    "description": "",
+    "name": "Carte des réserves du monde",
+    "displayPopupFooter": false,
+    "miniMap": false,
+    "moreControl": true,
+    "scaleControl": true,
+    "scrollWheelZoom": true,
+    "zoom": 3
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      373.53515625000006,
+      25.64152637306577
+    ]
+  },
+  "layers": [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "Green",
+              "iconClass": "Ball",
+              "labelInteractive": true,
+              "showLabel": null
+            },
+            "name": "Parc national du Mercantour - France",
+            "description": "Parcs nationaux"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              362.8125,
+              46.073231
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "Green",
+              "iconClass": "Ball",
+              "popupShape": "Panel",
+              "popupTemplate": "GeoRSSLink",
+              "showLabel": null,
+              "labelInteractive": true
+            },
+            "name": "Réserve nationale de Namibie"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              375.732422,
+              -21.779905
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "name": "Calque 1",
+        "id": 1915580
+      }
+    }
+  ]
+}
